@@ -111,7 +111,7 @@ app.post("/api/predict", (req, res) => {
 🌐 Serve React Frontend (dist folder)
 ==========================================
 */
-const distPath = path.join(process.cwd(), "backend", "dist");
+const distPath = path.join(process.cwd(), "dist");
 app.use(express.static(distPath));
 
 app.get(/.*/, (req, res) => {
