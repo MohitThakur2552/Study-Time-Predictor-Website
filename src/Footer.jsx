@@ -53,7 +53,7 @@ function Footer() {
         {/* Right Side - Social Icons */}
         <div className="flex space-x-5 text-gray-400">
           <Link
-            to="https://github.com/"
+            to="https://github.com/MohitThakur2552"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 hover:scale-110 transition-all duration-300"
@@ -61,13 +61,13 @@ function Footer() {
             <Github size={22} />
           </Link>
           <Link
-            to="mailto:example@email.com"
+            to="mailto:thakurmohit.0102@gmail.com"
             className="hover:text-yellow-400 hover:scale-110 transition-all duration-300"
           >
             <Mail size={22} />
           </Link>
           <Link
-            to="https://instagram.com/"
+            to="https://www.instagram.com/iam.mohit10?igsh=MTQ3Ynh5cW50cTcxdA=="
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-400 hover:scale-110 transition-all duration-300"
